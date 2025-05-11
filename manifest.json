@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "OSINT Scout",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://*/"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
